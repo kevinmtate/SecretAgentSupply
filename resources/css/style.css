@@ -77,3 +77,38 @@ nav span {
     padding: 50px;
     color: white;
 }
+
+
+/* Content section */
+
+.container {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.item {
+    border: 2px solid black;
+    margin: 10px;
+    width: 30%;
+}
+
+.item p {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    height: 9em;
+    padding: 3em;
+}
