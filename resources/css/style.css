@@ -83,20 +83,26 @@ nav span {
 
 .container {
     display: flex;
-    margin-top: 5%;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.5%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.item {
-    border: 2px solid black;
+/*catalog*/
+.product-catalog {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    border: 4px solid black;
     margin: 10px;
     width: 30%;
 }
 
-.item p {
-    padding: 20px;
+.product p {
+    padding: 1.5rem;
     background-color: black;
     color: white;
     text-align: center;
@@ -112,3 +118,17 @@ nav span {
     height: 9em;
     padding: 3em;
 }
+
+/*store info*/
+.store-info {
+    display: inline-block;
+}
+
+.si-title {
+    color: white;
+    background-color: black;
+    width: 30%;
+    padding: 3em;
+    margin-right: 30%;
+}
+
