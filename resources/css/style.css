@@ -68,6 +68,12 @@ nav span {
     color: white;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 /* Content section */
 
@@ -120,4 +126,22 @@ nav span {
     padding: 1rem 2rem;
 }
 
+/* footer */
+
+footer {
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
 
