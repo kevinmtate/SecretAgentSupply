@@ -14,7 +14,6 @@ header {
     align-items: center;
     width: 960px;
     margin: 0 auto;
-    justify-content: space-between;
 }
 
 header img {
@@ -62,6 +61,7 @@ header img {
 nav {
     background-color: firebrick;
     padding: 0.75rem 0;
+    margin-bottom: 3rem;
 }
 
 nav span {
@@ -72,6 +72,9 @@ nav span {
 /* Content section */
 
 .product-catalog {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .product {
@@ -89,6 +92,7 @@ nav span {
 .product img {
     height: 9rem;
     padding: 2rem 0;
+    max-width: 286px;
 }
 
 .image {
@@ -97,5 +101,23 @@ nav span {
 }
 
 /*catalog*/
+
+.store-info {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.si-item {
+    width: 35%;
+}
+
+.si-title {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+}
 
 
