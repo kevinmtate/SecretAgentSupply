@@ -4,7 +4,7 @@ html {
     font-size: 18px;
 }
 
-/* header */
+/* HEADER */
 header {
     background-color: black;
 }
@@ -29,7 +29,7 @@ header img {
     padding-bottom: 0.66rem;
 }
 
-/* Banner */
+/* BANNER */
 .banner {
     height: 25rem;
     background-image: url("../images/moto.jpeg");
@@ -56,7 +56,7 @@ header img {
 }
 
 
-/* Nav bar */
+/* NAV BAR */
 
 nav {
     background-color: firebrick;
@@ -72,6 +72,10 @@ nav span {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.mobile-nav {
+    display: none;
 }
 
 
@@ -106,7 +110,7 @@ nav span {
     justify-content: center;
 }
 
-/*catalog*/
+/* CATALOG */
 
 .store-info {
     margin-top: 3rem;
@@ -126,22 +130,86 @@ nav span {
     padding: 1rem 2rem;
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
     height: 5rem;
     background-color: black;
     display: flex;
-    align-items: center;
 }
 
 footer p {
     color: white;
 }
 
-.footer-content {
-    display: flex;
-    align-items: center;
-    height: 100%;
+
+/* RESPONSIVE */
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+    .product {
+        width: 47%;
+    }
+
+    #glasses {
+        display: none;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: initial;
+    }
+
+    .nav {
+        justify-content: center;
+    }
 }
 
+/* phone */
+@media only screen and (max-width: 470px) {
+    .container {
+        width: 100%;
+    }
+
+    .highlight {
+        padding: 2rem 1rem;
+        margin-top: 10rem;
+    }
+
+    .banner h1 {
+        font-size: 1rem;
+    }
+
+    .banner h3 {
+        font-size: 0.77rem;
+    }
+
+    .banner {
+        height: 15rem;
+    }
+
+    .product {
+        width: 90%;
+    }
+
+    #watch {
+        display: none;
+    }
+
+    .store-info {
+        justify-content: initial;
+        flex-direction: column;
+    }
+
+    .si-item {
+        margin-bottom: 0.5rem;
+        width: 90%;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
